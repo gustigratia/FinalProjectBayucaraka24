@@ -1,0 +1,247 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (-) JobUnselected: {'identifier': 'griddata'}
+[0.000218] (-) JobUnselected: {'identifier': 'vision'}
+[0.000239] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.000259] (control) JobStarted: {'identifier': 'control'}
+[0.100040] (-) TimerEvent: {}
+[0.166628] (control) JobProgress: {'identifier': 'control', 'progress': 'cmake'}
+[0.166976] (control) JobProgress: {'identifier': 'control', 'progress': 'build'}
+[0.167826] (control) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/gusti/FinalProjectBayucaraka24/src/build/control', '--', '-j8', '-l8'], 'cwd': '/home/gusti/FinalProjectBayucaraka24/src/build/control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gusti'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1690'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gusti'), ('OLDPWD', '/home/gusti'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6440'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gusti'), ('JOURNAL_STREAM', '8:46674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gusti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/gusti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gusti-ubuntu:@/tmp/.ICE-unix/1729,unix/gusti-ubuntu:/tmp/.ICE-unix/1729'), ('INVOCATION_ID', '83c8acdcec5343f59c5bf765337ab10f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install/vision:/home/gusti/FinalProjectBayucaraka24/src/install/griddata:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:31fa2860-e0d4-4ac5-90a4-0440703161ee'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gusti/FinalProjectBayucaraka24/src/build/control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages:/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install/griddata:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy')]), 'shell': False}
+[0.185362] (control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o\x1b[0m\n'}
+[0.200176] (-) TimerEvent: {}
+[0.300521] (-) TimerEvent: {}
+[0.400803] (-) TimerEvent: {}
+[0.501139] (-) TimerEvent: {}
+[0.601451] (-) TimerEvent: {}
+[0.701741] (-) TimerEvent: {}
+[0.802005] (-) TimerEvent: {}
+[0.902307] (-) TimerEvent: {}
+[1.002630] (-) TimerEvent: {}
+[1.103002] (-) TimerEvent: {}
+[1.203326] (-) TimerEvent: {}
+[1.303634] (-) TimerEvent: {}
+[1.356885] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:114:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrid\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.357096] (control) StderrLine: {'line': b'  114 |         void timer_callback(\x1b[01;31m\x1b[Kgrid\x1b[m\x1b[K::msg::GameState::SharedPtr msg){\n'}
+[1.357176] (control) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.357244] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:114:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.357313] (control) StderrLine: {'line': b'  114 |         void timer_callback(grid::msg::GameState::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K){\n'}
+[1.357377] (control) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.358797] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.358909] (control) StderrLine: {'line': b'  158 |         rclcpp::Subscription<\x1b[01;31m\x1b[Kgrid\x1b[m\x1b[K::msg::GameState>::SharedPtr subscription_;\n'}
+[1.358982] (control) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.359048] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.359114] (control) StderrLine: {'line': b'  158 |         rclcpp::Subscription<grid::msg::GameState\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[1.359177] (control) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.359269] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[1.359333] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.359395] (control) StderrLine: {'line': b'  158 |         rclcpp::Subscription<grid::msg::GameState>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[1.359456] (control) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.359518] (control) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.361730] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.361886] (control) StderrLine: {'line': b'  158 |         rclcpp::Subscription<grid::msg::GameState>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[1.361959] (control) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.362025] (control) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[1.363297] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.363426] (control) StderrLine: {'line': b'  159 |         rclcpp::Publisher<\x1b[01;31m\x1b[Kgrid\x1b[m\x1b[K::msg::GameState>::SharedPtr publisher_;\n'}
+[1.363494] (control) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.363558] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.363714] (control) StderrLine: {'line': b'  159 |         rclcpp::Publisher<grid::msg::GameState\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[1.363793] (control) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.363858] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.363922] (control) StderrLine: {'line': b'  159 |         rclcpp::Publisher<grid::msg::GameState>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[1.363986] (control) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.364048] (control) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.364118] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kint MinimalPublisher::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.364184] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint MinimalPublisher::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.364252] (control) StderrLine: {'line': b'  158 |         rclcpp::Subscription<grid::msg::GameState>::\x1b[01;36m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[1.364314] (control) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.366075] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.366158] (control) StderrLine: {'line': b'  159 |         rclcpp::Publisher<grid::msg::GameState>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[1.366220] (control) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.366282] (control) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.370462] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.370627] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:12:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.370703] (control) StderrLine: {'line': b'   12 |             \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<grid::msg::GameState>("vision",10,\n'}
+[1.370769] (control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.370831] (control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[1.372455] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:12:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrid\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.372594] (control) StderrLine: {'line': b'   12 |             subscription_ = this->create_subscription<\x1b[01;31m\x1b[Kgrid\x1b[m\x1b[K::msg::GameState>("vision",10,\n'}
+[1.372667] (control) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.372734] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:12:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.372800] (control) StderrLine: {'line': b'   12 |             subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<grid::msg::GameState>\x1b[m\x1b[K("vision",10,\n'}
+[1.372863] (control) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.380770] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:13:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_subscription<<expression error> >(const char [7], int, std::_Bind_helper<false, void (MinimalPublisher::*)(int), MinimalPublisher*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.380975] (control) StderrLine: {'line': b'   13 | inimalPublisher::timer_callback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.381048] (control) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.381120] (control) StderrLine: {'line': b'\n'}
+[1.381180] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.381240] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.381312] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.381373] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1\x1b[m\x1b[K:\n'}
+[1.381433] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.381499] (control) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[1.381562] (control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.381623] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.381684] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:13:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.381743] (control) StderrLine: {'line': b'   13 | inimalPublisher::timer_callback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.381802] (control) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.381861] (control) StderrLine: {'line': b'\n'}
+[1.384360] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:15:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.384521] (control) StderrLine: {'line': b'   15 |             \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<grid::msg::GameState>("control", 10);\n'}
+[1.384601] (control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.384668] (control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.384728] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:15:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.384789] (control) StderrLine: {'line': b'   15 |             publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<grid::msg::GameState>\x1b[m\x1b[K("control", 10);\n'}
+[1.384848] (control) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.384907] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:15:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<grid>(const char [8], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.384972] (control) StderrLine: {'line': b'   15 |  = this->create_publisher<grid::msg::GameState>("control", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.385065] (control) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.385159] (control) StderrLine: {'line': b'\n'}
+[1.385218] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.385276] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.385334] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.385392] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1\x1b[m\x1b[K:\n'}
+[1.385450] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.385512] (control) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[1.385570] (control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.385627] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.398632] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.399030] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:117:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.399111] (control) StderrLine: {'line': b'  117 |                 if(\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K->cell[i] == 1){\n'}
+[1.399174] (control) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.399252] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:117:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.399315] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[1.399394] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[1.399716] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[1.399787] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[1.399849] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[1.399909] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.399968] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.400033] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.400092] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.400150] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.400220] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.400282] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.400340] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.400397] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.400500] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1\x1b[m\x1b[K:\n'}
+[1.400608] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.400670] (control) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.400729] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.400787] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22\x1b[m\x1b[K,\n'}
+[1.400845] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[1.400912] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[1.400971] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[1.401029] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[1.401087] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[1.401145] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.401204] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.401261] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.401318] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.401375] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.401435] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.401522] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.401615] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1\x1b[m\x1b[K:\n'}
+[1.401709] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.401809] (control) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.401896] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.401958] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[1.402018] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:34\x1b[m\x1b[K,\n'}
+[1.402099] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.402159] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.402338] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.402404] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1\x1b[m\x1b[K:\n'}
+[1.402466] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.402528] (control) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.402587] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.402646] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/header.hpp:7\x1b[m\x1b[K,\n'}
+[1.402705] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:2\x1b[m\x1b[K:\n'}
+[1.402763] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.402828] (control) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.402939] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.402997] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/game_state.hpp:7\x1b[m\x1b[K,\n'}
+[1.403056] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:4\x1b[m\x1b[K:\n'}
+[1.403116] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgriddata::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.403175] (control) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.403255] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.403316] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:121:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.403375] (control) StderrLine: {'line': b'  121 |                 if(\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K->cell[i] == 2){\n'}
+[1.403432] (control) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.403490] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:121:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.403548] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[1.403615] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[1.403670] (-) TimerEvent: {}
+[1.403805] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[1.403897] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[1.403959] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[1.404026] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.404089] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.404153] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.404212] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.404269] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.404325] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.404382] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.404440] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.404498] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.404556] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1\x1b[m\x1b[K:\n'}
+[1.404614] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.404674] (control) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.404730] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.404787] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22\x1b[m\x1b[K,\n'}
+[1.404871] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[1.404994] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[1.405061] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[1.405120] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[1.405180] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[1.405238] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.405294] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.405352] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.405409] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.405467] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.405529] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.405588] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.405650] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1\x1b[m\x1b[K:\n'}
+[1.405708] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.405766] (control) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.405823] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.405879] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[1.405937] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:34\x1b[m\x1b[K,\n'}
+[1.405994] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.406050] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.406107] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.406164] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1\x1b[m\x1b[K:\n'}
+[1.406221] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.406280] (control) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.406337] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.406394] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/header.hpp:7\x1b[m\x1b[K,\n'}
+[1.406450] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:2\x1b[m\x1b[K:\n'}
+[1.406507] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.406564] (control) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.406621] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.406677] (control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/game_state.hpp:7\x1b[m\x1b[K,\n'}
+[1.406735] (control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:4\x1b[m\x1b[K:\n'}
+[1.406801] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgriddata::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.406860] (control) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[1.406917] (control) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.406974] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:114:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KSharedPtr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.407032] (control) StderrLine: {'line': b'  114 |         void timer_callback(\x1b[01;35m\x1b[Kgrid::msg::GameState::SharedPtr\x1b[m\x1b[K msg){\n'}
+[1.407089] (control) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.407150] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::publish_msg()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.407209] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:138:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgrid\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.407289] (control) StderrLine: {'line': b'  138 |             auto msg = \x1b[01;31m\x1b[Kgrid\x1b[m\x1b[K::msg::GameState();\n'}
+[1.407349] (control) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.407407] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:154:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.407465] (control) StderrLine: {'line': b'  154 |             \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(msg);\n'}
+[1.407522] (control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.407578] (control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.503799] (-) TimerEvent: {}
+[1.604162] (-) TimerEvent: {}
+[1.704445] (-) TimerEvent: {}
+[1.804733] (-) TimerEvent: {}
+[1.806528] (control) StderrLine: {'line': b'make[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/control.cpp.o] Error 1\n'}
+[1.806699] (control) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/control.dir/all] Error 2\n'}
+[1.806890] (control) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[1.808083] (control) CommandEnded: {'returncode': 2}
+[1.904836] (-) TimerEvent: {}
+[1.953452] (control) JobEnded: {'identifier': 'control', 'rc': 2}
+[1.964185] (-) EventReactorShutdown: {}

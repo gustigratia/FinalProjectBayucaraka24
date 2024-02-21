@@ -1,0 +1,307 @@
+[0.000000] (-) TimerEvent: {}
+[0.000624] (-) JobUnselected: {'identifier': 'control'}
+[0.000757] (-) JobUnselected: {'identifier': 'vision'}
+[0.000788] (griddata) JobQueued: {'identifier': 'griddata', 'dependencies': OrderedDict()}
+[0.000856] (griddata) JobStarted: {'identifier': 'griddata'}
+[0.100747] (-) TimerEvent: {}
+[0.142310] (griddata) JobProgress: {'identifier': 'griddata', 'progress': 'cmake'}
+[0.143001] (griddata) Command: {'cmd': ['/usr/local/bin/cmake', '/home/gusti/FinalProjectBayucaraka24/src/griddata', '-DCMAKE_INSTALL_PREFIX=/home/gusti/FinalProjectBayucaraka24/src/install/griddata'], 'cwd': '/home/gusti/FinalProjectBayucaraka24/src/build/griddata', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gusti'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1690'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gusti'), ('OLDPWD', '/home/gusti'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6440'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gusti'), ('JOURNAL_STREAM', '8:46674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gusti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/gusti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gusti-ubuntu:@/tmp/.ICE-unix/1729,unix/gusti-ubuntu:/tmp/.ICE-unix/1729'), ('INVOCATION_ID', '83c8acdcec5343f59c5bf765337ab10f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:31fa2860-e0d4-4ac5-90a4-0440703161ee'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gusti/FinalProjectBayucaraka24/src/build/griddata'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.199425] (griddata) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.200859] (-) TimerEvent: {}
+[0.255683] (griddata) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.289856] (griddata) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300988] (-) TimerEvent: {}
+[0.399954] (griddata) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.401086] (-) TimerEvent: {}
+[0.415171] (griddata) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.415977] (griddata) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.416958] (griddata) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.429084] (griddata) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501209] (-) TimerEvent: {}
+[0.503781] (griddata) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.517786] (griddata) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.518240] (griddata) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.518957] (griddata) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.521749] (griddata) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.525468] (griddata) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.525613] (griddata) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.525696] (griddata) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.525771] (griddata) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.525843] (griddata) StderrLine: {'line': b'\n'}
+[0.525911] (griddata) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.525978] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.526046] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.526115] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.526183] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.526251] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.526318] (griddata) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.526385] (griddata) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.526453] (griddata) StderrLine: {'line': b'\x1b[0m\n'}
+[0.548885] (griddata) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.549202] (griddata) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.601299] (-) TimerEvent: {}
+[0.701566] (-) TimerEvent: {}
+[0.751961] (griddata) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.754689] (griddata) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.761129] (griddata) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.801658] (-) TimerEvent: {}
+[0.851888] (griddata) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.884241] (griddata) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.901791] (-) TimerEvent: {}
+[0.966720] (griddata) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.993244] (griddata) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):\n'}
+[0.993391] (griddata) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.993460] (griddata) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.993518] (griddata) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.993572] (griddata) StderrLine: {'line': b'\n'}
+[0.993624] (griddata) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.993676] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.993728] (griddata) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[0.993780] (griddata) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.993832] (griddata) StderrLine: {'line': b'\x1b[0m\n'}
+[1.001908] (-) TimerEvent: {}
+[1.011906] (griddata) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.102029] (-) TimerEvent: {}
+[1.128598] (griddata) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.202157] (-) TimerEvent: {}
+[1.229102] (griddata) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.235604] (griddata) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.238014] (griddata) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[1.238150] (griddata) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.238222] (griddata) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.238293] (griddata) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.238355] (griddata) StderrLine: {'line': b'\n'}
+[1.238415] (griddata) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.238475] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.238534] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.238593] (griddata) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[1.238651] (griddata) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.238709] (griddata) StderrLine: {'line': b'\x1b[0m\n'}
+[1.259070] (griddata) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.260238] (griddata) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.260644] (griddata) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):\n'}
+[1.260759] (griddata) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.260873] (griddata) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.260964] (griddata) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.261041] (griddata) StderrLine: {'line': b'\n'}
+[1.261105] (griddata) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.261166] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.261226] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.261286] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.261346] (griddata) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[1.261404] (griddata) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.261463] (griddata) StderrLine: {'line': b'\x1b[0m\n'}
+[1.282121] (griddata) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):\n'}
+[1.282317] (griddata) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.282430] (griddata) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.282600] (griddata) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.282699] (griddata) StderrLine: {'line': b'\n'}
+[1.282780] (griddata) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.282844] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.282919] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.282984] (griddata) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.283044] (griddata) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[1.283102] (griddata) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.283162] (griddata) StderrLine: {'line': b'\x1b[0m\n'}
+[1.289431] (griddata) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.289677] (griddata) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.289782] (griddata) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.289852] (griddata) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.302272] (-) TimerEvent: {}
+[1.310970] (griddata) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.350071] (griddata) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.367935] (griddata) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.369504] (griddata) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.370380] (griddata) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.372667] (griddata) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.396056] (griddata) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.398180] (griddata) StdoutLine: {'line': b'-- Build files have been written to: /home/gusti/FinalProjectBayucaraka24/src/build/griddata\n'}
+[1.402371] (-) TimerEvent: {}
+[1.404179] (griddata) CommandEnded: {'returncode': 0}
+[1.404762] (griddata) JobProgress: {'identifier': 'griddata', 'progress': 'build'}
+[1.406662] (griddata) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/gusti/FinalProjectBayucaraka24/src/build/griddata', '--', '-j8', '-l8'], 'cwd': '/home/gusti/FinalProjectBayucaraka24/src/build/griddata', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gusti'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1690'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gusti'), ('OLDPWD', '/home/gusti'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6440'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gusti'), ('JOURNAL_STREAM', '8:46674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gusti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/gusti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gusti-ubuntu:@/tmp/.ICE-unix/1729,unix/gusti-ubuntu:/tmp/.ICE-unix/1729'), ('INVOCATION_ID', '83c8acdcec5343f59c5bf765337ab10f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:31fa2860-e0d4-4ac5-90a4-0440703161ee'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gusti/FinalProjectBayucaraka24/src/build/griddata'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.418032] (griddata) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.420647] (griddata) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.502493] (-) TimerEvent: {}
+[1.602814] (-) TimerEvent: {}
+[1.611083] (griddata) StdoutLine: {'line': b'[  6%] Built target griddata__cpp\n'}
+[1.613797] (griddata) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.614076] (griddata) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.614201] (griddata) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.615054] (griddata) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/griddata__rosidl_generator_c.dir/rosidl_generator_c/griddata/msg/detail/game_state__functions.c.o\x1b[0m\n'}
+[1.651572] (griddata) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libgriddata__rosidl_generator_c.so\x1b[0m\n'}
+[1.669772] (griddata) StdoutLine: {'line': b'[ 22%] Built target griddata__rosidl_generator_c\n'}
+[1.672591] (griddata) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.673603] (griddata) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.702916] (-) TimerEvent: {}
+[1.803190] (-) TimerEvent: {}
+[1.808309] (griddata) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/griddata__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/griddata/msg/game_state__type_support.cpp.o\x1b[0m\n'}
+[1.818678] (griddata) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/griddata__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/griddata/msg/detail/game_state__type_support.cpp.o\x1b[0m\n'}
+[1.877078] (griddata) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/griddata__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/griddata/msg/detail/game_state__type_support.c.o\x1b[0m\n'}
+[1.900167] (griddata) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libgriddata__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.903287] (-) TimerEvent: {}
+[1.917684] (griddata) StdoutLine: {'line': b'[ 41%] Built target griddata__rosidl_typesupport_introspection_c\n'}
+[1.935403] (griddata) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/griddata__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/griddata/msg/detail/dds_fastrtps/game_state__type_support.cpp.o\x1b[0m\n'}
+[1.972448] (griddata) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/griddata__rosidl_typesupport_c.dir/rosidl_typesupport_c/griddata/msg/game_state__type_support.cpp.o\x1b[0m\n'}
+[1.993125] (griddata) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libgriddata__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.003402] (-) TimerEvent: {}
+[2.016230] (griddata) StdoutLine: {'line': b'[ 51%] Built target griddata__rosidl_typesupport_c\n'}
+[2.081153] (griddata) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libgriddata__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.094984] (griddata) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libgriddata__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.103496] (-) TimerEvent: {}
+[2.105166] (griddata) StdoutLine: {'line': b'[ 58%] Built target griddata__rosidl_typesupport_cpp\n'}
+[2.152661] (griddata) StdoutLine: {'line': b'[ 58%] Built target griddata__rosidl_typesupport_introspection_cpp\n'}
+[2.203635] (-) TimerEvent: {}
+[2.303944] (-) TimerEvent: {}
+[2.313857] (griddata) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libgriddata__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.380242] (griddata) StdoutLine: {'line': b'[ 61%] Built target griddata__rosidl_typesupport_fastrtps_cpp\n'}
+[2.382928] (griddata) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.404067] (-) TimerEvent: {}
+[2.504335] (-) TimerEvent: {}
+[2.559703] (griddata) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/griddata__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/griddata/msg/detail/game_state__type_support_c.cpp.o\x1b[0m\n'}
+[2.604472] (-) TimerEvent: {}
+[2.704809] (-) TimerEvent: {}
+[2.805097] (-) TimerEvent: {}
+[2.845580] (griddata) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libgriddata__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.905219] (-) TimerEvent: {}
+[2.912104] (griddata) StdoutLine: {'line': b'[ 70%] Built target griddata__rosidl_typesupport_fastrtps_c\n'}
+[2.917426] (griddata) StdoutLine: {'line': b'[ 70%] Built target griddata\n'}
+[2.922897] (griddata) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.005347] (-) TimerEvent: {}
+[3.105630] (-) TimerEvent: {}
+[3.205907] (-) TimerEvent: {}
+[3.239173] (griddata) StdoutLine: {'line': b'[ 74%] Built target griddata__py\n'}
+[3.244640] (griddata) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/griddata__python.dir/rosidl_generator_py/griddata/msg/_game_state_s.c.o\x1b[0m\n'}
+[3.306053] (-) TimerEvent: {}
+[3.321335] (griddata) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/griddata/libgriddata__python.so\x1b[0m\n'}
+[3.343504] (griddata) StdoutLine: {'line': b'[ 80%] Built target griddata__python\n'}
+[3.349452] (griddata) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/griddata__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/griddata/_griddata_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.349667] (griddata) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/griddata__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/griddata/_griddata_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.349776] (griddata) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/griddata__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/griddata/_griddata_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.406157] (-) TimerEvent: {}
+[3.414087] (griddata) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/griddata/griddata_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.414261] (griddata) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/griddata/griddata_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.414592] (griddata) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/griddata/griddata_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.431054] (griddata) StdoutLine: {'line': b'[100%] Built target griddata__rosidl_typesupport_c__pyext\n'}
+[3.431252] (griddata) StdoutLine: {'line': b'[100%] Built target griddata__rosidl_typesupport_introspection_c__pyext\n'}
+[3.458069] (griddata) StdoutLine: {'line': b'[100%] Built target griddata__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.461838] (griddata) CommandEnded: {'returncode': 0}
+[3.492844] (griddata) JobProgress: {'identifier': 'griddata', 'progress': 'install'}
+[3.496538] (griddata) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/gusti/FinalProjectBayucaraka24/src/build/griddata'], 'cwd': '/home/gusti/FinalProjectBayucaraka24/src/build/griddata', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gusti'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1690'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gusti'), ('OLDPWD', '/home/gusti'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6440'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gusti'), ('JOURNAL_STREAM', '8:46674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gusti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/gusti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gusti-ubuntu:@/tmp/.ICE-unix/1729,unix/gusti-ubuntu:/tmp/.ICE-unix/1729'), ('INVOCATION_ID', '83c8acdcec5343f59c5bf765337ab10f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:31fa2860-e0d4-4ac5-90a4-0440703161ee'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gusti/FinalProjectBayucaraka24/src/build/griddata'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.499081] (griddata) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.499316] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/ament_index/resource_index/rosidl_interfaces/griddata\n'}
+[3.499476] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata\n'}
+[3.499553] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg\n'}
+[3.499644] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.499723] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/game_state.h\n'}
+[3.499803] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail\n'}
+[3.499878] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__type_support.h\n'}
+[3.499943] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__functions.h\n'}
+[3.500027] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__struct.h\n'}
+[3.500087] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__functions.c\n'}
+[3.500164] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/environment/library_path.sh\n'}
+[3.500283] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/environment/library_path.dsv\n'}
+[3.500404] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_generator_c.so\n'}
+[3.500535] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_generator_c.so" to ""\n'}
+[3.500668] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata\n'}
+[3.500902] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg\n'}
+[3.501051] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.501187] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail\n'}
+[3.501301] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__rosidl_typesupport_fastrtps_c.h\n'}
+[3.501415] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_fastrtps_c.so\n'}
+[3.501512] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.501651] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata\n'}
+[3.501786] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg\n'}
+[3.501902] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.502015] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail\n'}
+[3.502119] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/dds_fastrtps\n'}
+[3.502242] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.502342] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.502456] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.502589] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata\n'}
+[3.502725] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg\n'}
+[3.502850] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.502966] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail\n'}
+[3.503101] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__type_support.c\n'}
+[3.503217] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__rosidl_typesupport_introspection_c.h\n'}
+[3.503330] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_introspection_c.so\n'}
+[3.503429] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.503544] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_c.so\n'}
+[3.503656] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_c.so" to ""\n'}
+[3.503754] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata\n'}
+[3.503878] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg\n'}
+[3.503991] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/game_state.hpp\n'}
+[3.504107] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.504206] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail\n'}
+[3.504302] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__type_support.hpp\n'}
+[3.504411] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__traits.hpp\n'}
+[3.504509] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__builder.hpp\n'}
+[3.504612] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__struct.hpp\n'}
+[3.504710] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata\n'}
+[3.504817] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg\n'}
+[3.504920] (griddata) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail\n'}
+[3.505018] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__type_support.cpp\n'}
+[3.505115] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.505213] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_introspection_cpp.so\n'}
+[3.505311] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.505409] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_cpp.so\n'}
+[3.505511] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__rosidl_typesupport_cpp.so" to ""\n'}
+[3.505609] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/environment/pythonpath.sh\n'}
+[3.505705] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/environment/pythonpath.dsv\n'}
+[3.505802] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/__init__.py\n'}
+[3.506223] (-) TimerEvent: {}
+[3.530887] (griddata) StdoutLine: {'line': b"Compiling '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/__init__.py'...\n"}
+[3.535013] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/msg\n'}
+[3.535313] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/msg/_game_state.py\n'}
+[3.535424] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/msg/__init__.py\n'}
+[3.535493] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/msg/_game_state_s.c\n'}
+[3.535560] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/griddata_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.535664] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/griddata_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.535729] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/griddata_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.535854] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/griddata_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.535939] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/griddata_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.536147] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages/griddata/griddata_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.536279] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__python.so\n'}
+[3.536461] (griddata) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/libgriddata__python.so" to ""\n'}
+[3.536583] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/msg/GameState.idl\n'}
+[3.536699] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/msg/GameState.msg\n'}
+[3.536815] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/ament_index/resource_index/package_run_dependencies/griddata\n'}
+[3.536951] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/ament_index/resource_index/parent_prefix_path/griddata\n'}
+[3.537065] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/environment/ament_prefix_path.sh\n'}
+[3.537209] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/environment/ament_prefix_path.dsv\n'}
+[3.537296] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/environment/path.sh\n'}
+[3.537381] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/environment/path.dsv\n'}
+[3.537443] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/local_setup.bash\n'}
+[3.537518] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/local_setup.sh\n'}
+[3.537600] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/local_setup.zsh\n'}
+[3.537679] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/local_setup.dsv\n'}
+[3.537760] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.dsv\n'}
+[3.537853] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/ament_index/resource_index/packages/griddata\n'}
+[3.537989] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_generator_cExport.cmake\n'}
+[3.538093] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.538203] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.538301] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.538411] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_typesupport_cExport.cmake\n'}
+[3.538513] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.538624] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_generator_cppExport.cmake\n'}
+[3.538736] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.538835] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.538944] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_typesupport_cppExport.cmake\n'}
+[3.539041] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddata__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.539134] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/rosidl_cmake-extras.cmake\n'}
+[3.539227] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.539321] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.539422] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.539514] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.539606] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.539702] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.539795] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddataConfig.cmake\n'}
+[3.539879] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake/griddataConfig-version.cmake\n'}
+[3.539989] (griddata) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.xml\n'}
+[3.541377] (griddata) CommandEnded: {'returncode': 0}
+[3.607452] (-) TimerEvent: {}
+[3.708820] (-) TimerEvent: {}
+[3.810103] (-) TimerEvent: {}
+[3.910419] (-) TimerEvent: {}
+[4.002910] (griddata) JobEnded: {'identifier': 'griddata', 'rc': 0}
+[4.003525] (-) EventReactorShutdown: {}

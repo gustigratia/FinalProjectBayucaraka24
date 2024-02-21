@@ -1,0 +1,2 @@
+Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/src/build/control -- -j8 -l8
+Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/src/build/control -- -j8 -l8

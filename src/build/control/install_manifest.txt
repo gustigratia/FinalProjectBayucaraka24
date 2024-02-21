@@ -1,0 +1,16 @@
+/home/gusti/FinalProjectBayucaraka24/src/install/control/lib/control/control
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/ament_index/resource_index/package_run_dependencies/control
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/ament_index/resource_index/parent_prefix_path/control
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/ament_prefix_path.sh
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/ament_prefix_path.dsv
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/path.sh
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/path.dsv
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.bash
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.sh
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.zsh
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.dsv
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/package.dsv
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/ament_index/resource_index/packages/control
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/cmake/controlConfig.cmake
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/cmake/controlConfig-version.cmake
+/home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/package.xml

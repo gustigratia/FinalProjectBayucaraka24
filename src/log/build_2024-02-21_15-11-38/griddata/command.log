@@ -1,0 +1,6 @@
+Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/gusti/FinalProjectBayucaraka24/src/griddata -DCMAKE_INSTALL_PREFIX=/home/gusti/FinalProjectBayucaraka24/src/install/griddata
+Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/gusti/FinalProjectBayucaraka24/src/griddata -DCMAKE_INSTALL_PREFIX=/home/gusti/FinalProjectBayucaraka24/src/install/griddata
+Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/src/build/griddata -- -j8 -l8
+Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/src/build/griddata -- -j8 -l8
+Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/gusti/FinalProjectBayucaraka24/src/build/griddata
+Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/gusti/FinalProjectBayucaraka24/src/build/griddata

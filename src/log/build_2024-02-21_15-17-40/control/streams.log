@@ -1,0 +1,64 @@
+[0.170s] Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake /home/gusti/FinalProjectBayucaraka24/src/control -DCMAKE_INSTALL_PREFIX=/home/gusti/FinalProjectBayucaraka24/src/install/control
+[0.213s] -- The C compiler identification is GNU 9.4.0
+[0.262s] -- The CXX compiler identification is GNU 9.4.0
+[0.276s] -- Detecting C compiler ABI info
+[0.324s] -- Detecting C compiler ABI info - done
+[0.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.335s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.345s] -- Detecting CXX compiler ABI info
+[0.404s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.422s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.422s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.422s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.422s]   the cmake_policy command to set the policy and suppress this warning.
+[0.423s] 
+[0.423s] Call Stack (most recent call first):
+[0.423s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.423s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.423s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.423s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.423s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.423s]   CMakeLists.txt:19 (find_package)
+[0.423s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.423s] [0m
+[0.444s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.444s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.645s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.711s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.775s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.807s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.949s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.954s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.002s] -- Looking for pthread_create in pthreads
+[1.038s] -- Looking for pthread_create in pthreads - not found
+[1.039s] -- Looking for pthread_create in pthread
+[1.086s] -- Looking for pthread_create in pthread - found
+[1.087s] -- Found Threads: TRUE  
+[1.268s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[1.268s]   By not providing "Findgrid.cmake" in CMAKE_MODULE_PATH this project has
+[1.269s]   asked CMake to find a package configuration file provided by "grid", but
+[1.269s]   CMake did not find one.
+[1.269s] 
+[1.269s]   Could not find a package configuration file provided by "grid" with any of
+[1.269s]   the following names:
+[1.269s] 
+[1.269s]     gridConfig.cmake
+[1.269s]     grid-config.cmake
+[1.269s] 
+[1.269s]   Add the installation prefix of "grid" to CMAKE_PREFIX_PATH or set
+[1.269s]   "grid_DIR" to a directory containing one of the above files.  If "grid"
+[1.269s]   provides a separate development package or SDK, be sure it has been
+[1.269s]   installed.
+[1.269s] 
+[1.269s] [0m
+[1.269s] -- Configuring incomplete, errors occurred!
+[1.278s] Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/build/control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake /home/gusti/FinalProjectBayucaraka24/src/control -DCMAKE_INSTALL_PREFIX=/home/gusti/FinalProjectBayucaraka24/src/install/control

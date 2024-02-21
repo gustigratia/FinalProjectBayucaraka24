@@ -1,0 +1,11 @@
+[0.165s] Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/src/build/control -- -j8 -l8
+[0.190s] [ 50%] [32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o[0m
+[1.432s] [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::publish_msg()[m[K’:
+[1.432s] [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:138:32:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[1.432s]   138 |             auto msg = griddata[01;31m[K:[m[Kmsg::GameState();
+[1.432s]       |                                [01;31m[K^[m[K
+[1.432s]       |                                [32m[K::[m[K
+[2.922s] make[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/control.cpp.o] Error 1
+[2.923s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/control.dir/all] Error 2
+[2.923s] make: *** [Makefile:146: all] Error 2
+[2.924s] Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/src/build/control -- -j8 -l8

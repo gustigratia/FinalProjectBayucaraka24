@@ -1,0 +1,216 @@
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:114:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid[m[K’ has not been declared
+  114 |         void timer_callback([01;31m[Kgrid[m[K::msg::GameState::SharedPtr msg){
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:114:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kmsg[m[K’
+  114 |         void timer_callback(grid::msg::GameState::SharedPtr [01;31m[Kmsg[m[K){
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid[m[K’ was not declared in this scope
+  158 |         rclcpp::Subscription<[01;31m[Kgrid[m[K::msg::GameState>::SharedPtr subscription_;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  158 |         rclcpp::Subscription<grid::msg::GameState[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  158 |         rclcpp::Subscription<grid::msg::GameState>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+  158 |         rclcpp::Subscription<grid::msg::GameState>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                               [32m[Krcl_subscription_t[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid[m[K’ was not declared in this scope
+  159 |         rclcpp::Publisher<[01;31m[Kgrid[m[K::msg::GameState>::SharedPtr publisher_;
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  159 |         rclcpp::Publisher<grid::msg::GameState[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  159 |         rclcpp::Publisher<grid::msg::GameState>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:50:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint MinimalPublisher::SharedPtr[m[K’
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:158:53:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MinimalPublisher::SharedPtr[m[K’
+  158 |         rclcpp::Subscription<grid::msg::GameState>::[01;36m[KSharedPtr[m[K subscription_;
+      |                                                     [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:159:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+  159 |         rclcpp::Publisher<grid::msg::GameState>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+      |                                                            [32m[Krcl_publisher_t[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:12:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   12 |             [01;31m[Ksubscription_[m[K = this->create_subscription<grid::msg::GameState>("vision",10,
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Krcl_subscription_t[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:12:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid[m[K’ was not declared in this scope
+   12 |             subscription_ = this->create_subscription<[01;31m[Kgrid[m[K::msg::GameState>("vision",10,
+      |                                                       [01;31m[K^~~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:12:35:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   12 |             subscription_ = this->[01;31m[Kcreate_subscription<grid::msg::GameState>[m[K("vision",10,
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:13:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_subscription<<expression error> >(const char [7], int, std::_Bind_helper<false, void (MinimalPublisher::*)(int), MinimalPublisher*, const std::_Placeholder<1>&>::type)[m[K’
+   13 | inimalPublisher::timer_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:13:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 | inimalPublisher::timer_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   15 |             [01;31m[Kpublisher_[m[K = this->create_publisher<grid::msg::GameState>("control", 10);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Krcl_publisher_t[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:15:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   15 |             publisher_ = this->[01;31m[Kcreate_publisher<grid::msg::GameState>[m[K("control", 10);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:15:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<grid>(const char [8], int)[m[K’
+   15 |  = this->create_publisher<grid::msg::GameState>("control", 10[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback(int)[m[K’:
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:117:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  117 |                 if([01;31m[Kmsg[m[K->cell[i] == 1){
+      |                    [01;31m[K^~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:117:20:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/header.hpp:7[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/game_state.hpp:7[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:4[m[K:
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgriddata::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:121:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  121 |                 if([01;31m[Kmsg[m[K->cell[i] == 2){
+      |                    [01;31m[K^~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:121:20:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/header.hpp:7[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/game_state.hpp:7[m[K,
+                 from [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:4[m[K:
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/install/griddata/include/griddata/msg/detail/game_state__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgriddata::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:114:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedPtr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  114 |         void timer_callback([01;35m[Kgrid::msg::GameState::SharedPtr[m[K msg){
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::publish_msg()[m[K’:
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:138:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kgrid[m[K’ has not been declared
+  138 |             auto msg = [01;31m[Kgrid[m[K::msg::GameState();
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:154:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+  154 |             [01;31m[Kpublisher_[m[K->publish(msg);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Krcl_publisher_t[m[K
+make[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/control.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

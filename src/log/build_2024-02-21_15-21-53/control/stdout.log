@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable control[0m
+[100%] Built target control
+-- Install configuration: ""
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/lib/control/control
+-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/control/lib/control/control" to ""
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/ament_prefix_path.sh
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/ament_prefix_path.dsv
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/path.sh
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/path.dsv
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.bash
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.sh
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.zsh
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.dsv
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/package.dsv
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/ament_index/resource_index/packages/control
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/cmake/controlConfig.cmake
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/cmake/controlConfig-version.cmake
+-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/package.xml

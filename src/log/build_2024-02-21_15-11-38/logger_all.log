@@ -1,0 +1,166 @@
+[2.091s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'griddata']
+[2.091s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f549abc7670>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['griddata'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f549abc7670>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f549a81fd90>)
+[2.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.193s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gusti/FinalProjectBayucaraka24/src'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extensions ['ignore', 'ignore_ament_install']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'ignore'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'ignore_ament_install'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extensions ['colcon_pkg']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'colcon_pkg'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extensions ['colcon_meta']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'colcon_meta'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extensions ['ros']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(control) by extension 'ros'
+[2.206s] DEBUG:colcon.colcon_core.package_identification:Package 'control' with type 'ros.ament_cmake' and name 'control'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(griddata) by extensions ['ignore', 'ignore_ament_install']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(griddata) by extension 'ignore'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(griddata) by extension 'ignore_ament_install'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(griddata) by extensions ['colcon_pkg']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(griddata) by extension 'colcon_pkg'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(griddata) by extensions ['colcon_meta']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(griddata) by extension 'colcon_meta'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(griddata) by extensions ['ros']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(griddata) by extension 'ros'
+[2.207s] DEBUG:colcon.colcon_core.package_identification:Package 'griddata' with type 'ros.ament_cmake' and name 'griddata'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ignore', 'ignore_ament_install']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore_ament_install'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_pkg']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_pkg'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_meta']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_meta'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ros']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ros'
+[2.208s] DEBUG:colcon.colcon_core.package_identification:Package 'vision' with type 'ros.ament_python' and name 'vision'
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.327s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'control' in 'control'
+[2.327s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision' in 'vision'
+[2.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.469s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[2.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'griddata' build argument 'cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'griddata' build argument 'cmake_target' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'griddata' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'griddata' build argument 'cmake_clean_cache' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'griddata' build argument 'cmake_clean_first' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'griddata' build argument 'cmake_force_configure' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'griddata' build argument 'ament_cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'griddata' build argument 'catkin_cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'griddata' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.613s] DEBUG:colcon.colcon_core.verb:Building package 'griddata' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gusti/FinalProjectBayucaraka24/src/build/griddata', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gusti/FinalProjectBayucaraka24/src/install/griddata', 'merge_install': False, 'path': '/home/gusti/FinalProjectBayucaraka24/src/griddata', 'symlink_install': False, 'test_result_base': None}
+[2.652s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.707s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gusti/FinalProjectBayucaraka24/src/griddata' with build type 'ament_cmake'
+[2.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gusti/FinalProjectBayucaraka24/src/griddata'
+[2.752s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/gusti/FinalProjectBayucaraka24/src/griddata -DCMAKE_INSTALL_PREFIX=/home/gusti/FinalProjectBayucaraka24/src/install/griddata
+[4.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake /home/gusti/FinalProjectBayucaraka24/src/griddata -DCMAKE_INSTALL_PREFIX=/home/gusti/FinalProjectBayucaraka24/src/install/griddata
+[4.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/src/build/griddata -- -j8 -l8
+[6.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/src/build/griddata -- -j8 -l8
+[6.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/gusti/FinalProjectBayucaraka24/src/build/griddata
+[6.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(griddata)
+[6.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/build/griddata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/gusti/FinalProjectBayucaraka24/src/build/griddata
+[6.291s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata' for CMake module files
+[6.291s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata' for CMake config files
+[6.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('griddata', 'cmake_prefix_path')
+[6.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/cmake_prefix_path.ps1'
+[6.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/cmake_prefix_path.dsv'
+[6.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/cmake_prefix_path.sh'
+[6.330s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib'
+[6.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('griddata', 'ld_library_path_lib')
+[6.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/ld_library_path_lib.ps1'
+[6.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/ld_library_path_lib.dsv'
+[6.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/ld_library_path_lib.sh'
+[6.368s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/bin'
+[6.368s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/pkgconfig/griddata.pc'
+[6.368s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages'
+[6.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('griddata', 'pythonpath')
+[6.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/pythonpath.ps1'
+[6.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/pythonpath.dsv'
+[6.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/pythonpath.sh'
+[6.406s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/bin'
+[6.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.ps1'
+[6.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.dsv'
+[6.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.sh'
+[6.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.bash'
+[6.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.zsh'
+[6.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/colcon-core/packages/griddata)
+[6.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(griddata)
+[6.547s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata' for CMake module files
+[6.547s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata' for CMake config files
+[6.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('griddata', 'cmake_prefix_path')
+[6.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/cmake_prefix_path.ps1'
+[6.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/cmake_prefix_path.dsv'
+[6.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/cmake_prefix_path.sh'
+[6.587s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib'
+[6.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('griddata', 'ld_library_path_lib')
+[6.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/ld_library_path_lib.ps1'
+[6.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/ld_library_path_lib.dsv'
+[6.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/ld_library_path_lib.sh'
+[6.630s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/bin'
+[6.630s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/pkgconfig/griddata.pc'
+[6.630s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages'
+[6.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('griddata', 'pythonpath')
+[6.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/pythonpath.ps1'
+[6.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/pythonpath.dsv'
+[6.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/hook/pythonpath.sh'
+[6.670s] Level 1:colcon.colcon_core.environment:checking '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/bin'
+[6.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.ps1'
+[6.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.dsv'
+[6.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.sh'
+[6.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.bash'
+[6.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/package.zsh'
+[6.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/colcon-core/packages/griddata)
+[6.709s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.709s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.709s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.709s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.753s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.754s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.754s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.768s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gusti/FinalProjectBayucaraka24/src/install/local_setup.ps1'
+[6.813s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gusti/FinalProjectBayucaraka24/src/install/_local_setup_util_ps1.py'
+[6.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gusti/FinalProjectBayucaraka24/src/install/setup.ps1'
+[6.854s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gusti/FinalProjectBayucaraka24/src/install/local_setup.sh'
+[6.854s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gusti/FinalProjectBayucaraka24/src/install/_local_setup_util_sh.py'
+[6.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gusti/FinalProjectBayucaraka24/src/install/setup.sh'
+[6.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gusti/FinalProjectBayucaraka24/src/install/local_setup.bash'
+[6.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gusti/FinalProjectBayucaraka24/src/install/setup.bash'
+[6.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gusti/FinalProjectBayucaraka24/src/install/local_setup.zsh'
+[6.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gusti/FinalProjectBayucaraka24/src/install/setup.zsh'

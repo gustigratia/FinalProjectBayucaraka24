@@ -1,0 +1,8 @@
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::publish_msg()[m[K’:
+[01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:138:32:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+  138 |             auto msg = griddata[01;31m[K:[m[Kmsg::GameState();
+      |                                [01;31m[K^[m[K
+      |                                [32m[K::[m[K
+make[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/control.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
