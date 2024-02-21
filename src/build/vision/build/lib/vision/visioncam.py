@@ -87,8 +87,6 @@ class MinimalPublisher(Node):
                     self.Terminate = False
                     self.wincond = 8
 
-
-        
             # Game Over
             if(self.isTied==False):    
                 if(self.wincond == 1):
@@ -128,10 +126,10 @@ class MinimalPublisher(Node):
                 cv2.putText(frame, "(TIED)", (205,400), cv2.FONT_HERSHEY_SIMPLEX, 3, (36,45,48), 8)
                 self.Terminate = False
                 
-            cv2.putText(frame, "Press 'm'", (5,30), cv2.FONT_HERSHEY_DUPLEX, 1, (0,0,0), 1)
+            cv2.putText(frame, "Press 'p'", (5,30), cv2.FONT_HERSHEY_DUPLEX, 1.2, (0,0,0), 2)
             cv2.putText(frame, "to proceed", (2,60), cv2.FONT_HERSHEY_DUPLEX, 1, (0,0,0), 1)
             cv2.imshow("frame", frame)
-            if cv2.waitKey(1) & 0xFF == ord('m'):
+            if cv2.waitKey(1) & 0xFF == ord('p'):
                 self.process_imagered(frame)
                 self.process_imageblue(frame)
                 self.turn += 2
