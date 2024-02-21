@@ -21,6 +21,8 @@ extern "C"
 typedef struct griddata__msg__GameState
 {
   int8_t cell[9];
+  int64_t gameturn;
+  bool over;
 } griddata__msg__GameState;
 
 // Struct for a sequence of griddata__msg__GameState.

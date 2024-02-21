@@ -8,6 +8,10 @@ module griddata {
     typedef int8 int8__9[9];
     struct GameState {
       int8__9 cell;
+
+      int64 gameturn;
+
+      boolean over;
     };
   };
 };

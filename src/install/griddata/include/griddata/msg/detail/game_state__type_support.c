@@ -31,7 +31,7 @@ void GameState__rosidl_typesupport_introspection_c__GameState_fini_function(void
   griddata__msg__GameState__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember GameState__rosidl_typesupport_introspection_c__GameState_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember GameState__rosidl_typesupport_introspection_c__GameState_message_member_array[3] = {
   {
     "cell",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
@@ -46,13 +46,43 @@ static rosidl_typesupport_introspection_c__MessageMember GameState__rosidl_types
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "gameturn",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(griddata__msg__GameState, gameturn),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "over",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(griddata__msg__GameState, over),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers GameState__rosidl_typesupport_introspection_c__GameState_message_members = {
   "griddata__msg",  // message namespace
   "GameState",  // message name
-  1,  // number of fields
+  3,  // number of fields
   sizeof(griddata__msg__GameState),
   GameState__rosidl_typesupport_introspection_c__GameState_message_member_array,  // message members
   GameState__rosidl_typesupport_introspection_c__GameState_init_function,  // function to initialize message memory (memory has to be allocated)

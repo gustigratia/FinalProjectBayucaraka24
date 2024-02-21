@@ -57,7 +57,7 @@ void * get_function__GameState__cell(void * untyped_member, size_t index)
   return &member[index];
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember GameState_message_member_array[1] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember GameState_message_member_array[3] = {
   {
     "cell",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT8,  // type
@@ -72,13 +72,43 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember GameState_mes
     get_const_function__GameState__cell,  // get_const(index) function pointer
     get_function__GameState__cell,  // get(index) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "gameturn",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(griddata::msg::GameState, gameturn),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "over",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(griddata::msg::GameState, over),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers GameState_message_members = {
   "griddata::msg",  // message namespace
   "GameState",  // message name
-  1,  // number of fields
+  3,  // number of fields
   sizeof(griddata::msg::GameState),
   GameState_message_member_array,  // message members
   GameState_init_function,  // function to initialize message memory (memory has to be allocated)

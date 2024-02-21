@@ -38,6 +38,8 @@ struct GameState_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       std::fill<typename std::array<int8_t, 9>::iterator, int8_t>(this->cell.begin(), this->cell.end(), 0);
+      this->gameturn = 0ll;
+      this->over = false;
     }
   }
 
@@ -48,6 +50,8 @@ struct GameState_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       std::fill<typename std::array<int8_t, 9>::iterator, int8_t>(this->cell.begin(), this->cell.end(), 0);
+      this->gameturn = 0ll;
+      this->over = false;
     }
   }
 
@@ -55,12 +59,30 @@ struct GameState_
   using _cell_type =
     std::array<int8_t, 9>;
   _cell_type cell;
+  using _gameturn_type =
+    int64_t;
+  _gameturn_type gameturn;
+  using _over_type =
+    bool;
+  _over_type over;
 
   // setters for named parameter idiom
   Type & set__cell(
     const std::array<int8_t, 9> & _arg)
   {
     this->cell = _arg;
+    return *this;
+  }
+  Type & set__gameturn(
+    const int64_t & _arg)
+  {
+    this->gameturn = _arg;
+    return *this;
+  }
+  Type & set__over(
+    const bool & _arg)
+  {
+    this->over = _arg;
     return *this;
   }
 
@@ -107,6 +129,12 @@ struct GameState_
   bool operator==(const GameState_ & other) const
   {
     if (this->cell != other.cell) {
+      return false;
+    }
+    if (this->gameturn != other.gameturn) {
+      return false;
+    }
+    if (this->over != other.over) {
       return false;
     }
     return true;

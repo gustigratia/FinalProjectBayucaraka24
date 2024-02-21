@@ -1,0 +1,74 @@
+[0.178s] Invoking command in '/home/gusti/FinalProjectBayucaraka24/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake /home/gusti/FinalProjectBayucaraka24/src/control -DCMAKE_INSTALL_PREFIX=/home/gusti/FinalProjectBayucaraka24/install/control
+[0.223s] -- The C compiler identification is GNU 9.4.0
+[0.277s] -- The CXX compiler identification is GNU 9.4.0
+[0.292s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.357s] -- Detecting C compile features - done
+[0.366s] -- Detecting CXX compiler ABI info
+[0.431s] -- Detecting CXX compiler ABI info - done
+[0.443s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.444s] -- Detecting CXX compile features
+[0.444s] -- Detecting CXX compile features - done
+[0.446s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.450s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.450s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.450s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.450s]   the cmake_policy command to set the policy and suppress this warning.
+[0.450s] 
+[0.450s] Call Stack (most recent call first):
+[0.450s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.450s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.450s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.450s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.450s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.451s]   CMakeLists.txt:19 (find_package)
+[0.451s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.451s] [0m
+[0.471s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.471s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.678s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.723s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.730s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.795s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.828s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.965s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.967s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.018s] -- Looking for pthread_create in pthreads
+[1.055s] -- Looking for pthread_create in pthreads - not found
+[1.055s] -- Looking for pthread_create in pthread
+[1.102s] -- Looking for pthread_create in pthread - found
+[1.104s] -- Found Threads: TRUE  
+[1.243s] -- Found griddata: 0.0.0 (/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake)
+[1.250s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.310s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.311s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.311s] -- Configured cppcheck include dirs: 
+[1.311s] -- Configured cppcheck exclude dirs and/or files: 
+[1.311s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.312s] -- Configured cpplint exclude dirs and/or files: 
+[1.312s] -- Added test 'lint_cmake' to check CMake code style
+[1.313s] -- Added test 'uncrustify' to check C / C++ code style
+[1.313s] -- Configured uncrustify additional arguments: 
+[1.313s] -- Added test 'xmllint' to check XML markup files
+[1.314s] -- Configuring done (1.1s)
+[1.321s] -- Generating done (0.0s)
+[1.323s] -- Build files have been written to: /home/gusti/FinalProjectBayucaraka24/build/control
+[1.329s] Invoked command in '/home/gusti/FinalProjectBayucaraka24/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake /home/gusti/FinalProjectBayucaraka24/src/control -DCMAKE_INSTALL_PREFIX=/home/gusti/FinalProjectBayucaraka24/install/control
+[1.331s] Invoking command in '/home/gusti/FinalProjectBayucaraka24/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/build/control -- -j8 -l8
+[1.346s] [ 50%] [32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o[0m
+[2.571s] [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:[m[K In member function ‘[01m[Kvoid MyNode::timer_callback(griddata::msg::GameState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.571s] [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:123:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct griddata::msg::GameState_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct griddata::msg::GameState_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kover[m[K’
+[2.571s]   123 |             if(msg->[01;31m[Kover[m[K){
+[2.571s]       |                     [01;31m[K^~~~[m[K
+[2.571s] [01m[K/home/gusti/FinalProjectBayucaraka24/src/control/src/control.cpp:124:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct griddata::msg::GameState_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct griddata::msg::GameState_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kgameturn[m[K’
+[2.571s]   124 |                 if(msg->[01;31m[Kgameturn[m[K % 2 == 0){
+[2.571s]       |                         [01;31m[K^~~~~~~~[m[K
+[4.024s] make[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/control.cpp.o] Error 1
+[4.025s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/control.dir/all] Error 2
+[4.025s] make: *** [Makefile:146: all] Error 2
+[4.027s] Invoked command in '/home/gusti/FinalProjectBayucaraka24/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy /usr/local/bin/cmake --build /home/gusti/FinalProjectBayucaraka24/build/control -- -j8 -l8

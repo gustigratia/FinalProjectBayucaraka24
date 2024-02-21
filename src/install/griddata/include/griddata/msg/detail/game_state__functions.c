@@ -18,6 +18,8 @@ griddata__msg__GameState__init(griddata__msg__GameState * msg)
     return false;
   }
   // cell
+  // gameturn
+  // over
   return true;
 }
 
@@ -28,6 +30,8 @@ griddata__msg__GameState__fini(griddata__msg__GameState * msg)
     return;
   }
   // cell
+  // gameturn
+  // over
 }
 
 bool
@@ -41,6 +45,14 @@ griddata__msg__GameState__are_equal(const griddata__msg__GameState * lhs, const 
     if (lhs->cell[i] != rhs->cell[i]) {
       return false;
     }
+  }
+  // gameturn
+  if (lhs->gameturn != rhs->gameturn) {
+    return false;
+  }
+  // over
+  if (lhs->over != rhs->over) {
+    return false;
   }
   return true;
 }
@@ -57,6 +69,10 @@ griddata__msg__GameState__copy(
   for (size_t i = 0; i < 9; ++i) {
     output->cell[i] = input->cell[i];
   }
+  // gameturn
+  output->gameturn = input->gameturn;
+  // over
+  output->over = input->over;
   return true;
 }
 

@@ -5,24 +5,43 @@
 
 using namespace std::chrono_literals;
 
-class MinimalPublisher : public rclcpp::Node {
+class MyNode : public rclcpp::Node {
     public:
-        MinimalPublisher() : Node("pubcontrol"){
+        MyNode() : Node("pubcontrol"){
             // subscribing
             subscription_ = this->create_subscription<griddata::msg::GameState>("vision",10, 
-            std::bind(&MinimalPublisher::timer_callback, this, std::placeholders::_1));
+            std::bind(&MyNode::timer_callback, this, std::placeholders::_1));
             // publishing
             publisher_ = this->create_publisher<griddata::msg::GameState>("control", 10);
             //periodic timer
-            timer_ = this->create_wall_timer(100ms, std::bind(&MinimalPublisher::publish_msg, this));
+            timer_ = this->create_wall_timer(10000ms, std::bind(&MyNode::publish_msg, this));
             
         }
 
     private:
-        int cell[9] = {0,0,0,0,0,0,0,0,0};
-        int turn = 0;
-        
-        int check(int arr[9]){
+        int cell[9];
+        int turn;
+        bool GameOver(int board[]) {
+            // Check for a win
+            if ((board[0] != 0 && board[0] == board[1] && board[1] == board[2]) ||
+                (board[3] != 0 && board[3] == board[4] && board[4] == board[5]) ||
+                (board[6] != 0 && board[6] == board[7] && board[7] == board[8]) ||
+                (board[0] != 0 && board[0] == board[3] && board[3] == board[6]) ||
+                (board[1] != 0 && board[1] == board[4] && board[4] == board[7]) ||
+                (board[2] != 0 && board[2] == board[5] && board[5] == board[8]) ||
+                (board[0] != 0 && board[0] == board[4] && board[4] == board[8]) ||
+                (board[2] != 0 && board[2] == board[4] && board[4] == board[6])) {
+                return true; // Someone won
+            }
+
+            // Check for a tie
+            for (int i = 0; i < 9; ++i) {
+                if (board[i] == 0) return false; // Found an empty cell, game is not over yet
+            }
+            return true; // Board is full, it's a tie
+        }
+
+        int evaluate(int arr[9]){
             const int win_pattern[8][3] = {
                 {0,1,2}, {3,4,5}, {6,7,8},
                 {0,3,6}, {1,4,7}, {2,5,8},
@@ -50,88 +69,62 @@ class MinimalPublisher : public rclcpp::Node {
             return 0;
         }
 
-        bool GameOver(int data[]){
-            return check(data) != 0;
-        }
-
-        int minimax(int data[], int depth, bool isMaximize, int alpha, int beta){
-            if(GameOver(data)){
-                return check(data);
+        int minimax(int data[], int depth, bool isMaximize){
+            if (GameOver(data) || depth == 5){
+                return evaluate(data);
             }
-            if(isMaximize){
-                int maxEval = -99999999;
-                for(int i = 0;i<9;i++){
-                    if(data[i] == 0){
-                        data[i] = 2;
-                        int eval = minimax(data, depth+1, false, alpha, beta);
-                        data[i] = 0;
-                        maxEval = std::max(maxEval, eval);
-                        alpha = std::max(alpha, eval);
-                        if (beta<=alpha){
-                            break;
+            else {
+                if(isMaximize){
+                    int maxEval = std::numeric_limits<int>::min();
+                    for(int i = 0;i<9;++i){
+                        if(data[i] == 0){
+                            data[i] = 2;
+                            int eval = minimax(data, depth+1, false);
+                            data[i] = 0;
+                            maxEval = std::max(maxEval, eval);  
                         }
                     }
+                    return maxEval;
                 }
-                return maxEval;
-            }
-            else{
-                int minEval = 99999999;
-                for(int i = 0;i<9;i++){
-                    if(data[i] == 0){
-                        data[i] = 1;
-                        int eval = minimax(data, depth+1, true, alpha, beta);
-                        data[i] = 0;
-                        minEval = std::min(minEval, eval);
-                        alpha = std::min(alpha, eval);
-                        if (beta<=alpha){
-                            break;
+                else{
+                    int minEval = std::numeric_limits<int>::max();
+                    for(int i = 0;i<9;++i){
+                        if(data[i] == 0){
+                            data[i] = 1;
+                            int eval = minimax(data, depth+1, true);
+                            data[i] = 0;
+                            minEval = std::min(minEval, eval);
                         }
                     }
+                    return minEval;
                 }
-                return minEval;
             }
+                
         }
 
-        void botmove(){
+        void timer_callback(const griddata::msg::GameState::SharedPtr msg){
+            // Tic Tac Toe Algorithm
+            for(int i =0 ;i<9;++i){
+                cell[i] = msg->cell[i];
+            }
             int bestmove = -1;
-            int bestEval = -99999999;
-            for(int i = 0;i<9;i++){
-                if(MinimalPublisher::cell[i] == 0){
-                    MinimalPublisher::cell[i] = 2;
-                    int eval = minimax(cell, 0, false, -99999999, 99999999);
-                    MinimalPublisher::cell[i] = 0;
-                    if(eval>bestEval){
-                        bestEval = eval;
+            int besteval = std::numeric_limits<int>::min();
+            for(int i = 0;i<9;++i){
+                if(cell[i] == 0){
+                    cell[i] = 2;
+                    int eval = minimax(cell, 0, false);
+                    cell[i] = 0;
+                    if(eval>besteval){
+                        besteval = eval;
                         bestmove = i;
                     }
                 }
             }
-            MinimalPublisher::cell[bestmove] = 2;
-        }
-
-
-
-        void timer_callback(griddata::msg::GameState::SharedPtr msg){
-            // Tic Tac Toe Algorithm
-            for(int i = 0;i<9;i++){
-                if(msg->cell[i] == 1){
-                    cell[i] = 1;
-                    
-                }
-                if(msg->cell[i] == 2){
-                    cell[i] = 2;
-                    
+            if(msg->over){
+                if(msg->gameturn % 2 == 0){
+                    cell[bestmove] = 2;
                 }
             }
-            // turn = msg->game_turn;
-            if(turn%2 == 1){
-                botmove();
-            }
-
-            
-        
-
-            RCLCPP_INFO(this->get_logger(), "Publishing %d", cell[5]);
         }
         
         void publish_msg(){
@@ -139,19 +132,8 @@ class MinimalPublisher : public rclcpp::Node {
             for(int i = 0;i<9;i++){
                 msg.cell[i] = cell[i];
             }
-            // msg.game_turn = turn;
-
-            // msg.cell1 = cell[0];
-            // msg.cell2 = cell[1];
-            // msg.cell3 = cell[2];
-            // msg.cell4 = cell[3];
-            // msg.cell5 = cell[4];
-            // msg.cell6 = cell[5];
-            // msg.cell7 = cell[6];
-            // msg.cell8 = cell[7];
-            // msg.cell9 = cell[8];
-            RCLCPP_INFO(this->get_logger(), "Publishing %d", msg.cell[5]);
             publisher_->publish(msg);
+            
         }
         
         rclcpp::TimerBase::SharedPtr timer_;
@@ -165,7 +147,7 @@ class MinimalPublisher : public rclcpp::Node {
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<MinimalPublisher>();
+    auto node = std::make_shared<MyNode>();
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;

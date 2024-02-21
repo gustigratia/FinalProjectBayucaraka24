@@ -1,0 +1,4 @@
+source;share/griddata/environment/ament_prefix_path.sh
+source;share/griddata/environment/library_path.sh
+source;share/griddata/environment/path.sh
+source;share/griddata/environment/pythonpath.sh
