@@ -5,7 +5,7 @@ from griddata.msg import GameState
 import cv2 
 
 # Create Node
-class MinimalPublisher(Node):
+class MyNode(Node):
     def __init__(self):
         super().__init__('vision')
         
@@ -238,7 +238,7 @@ class MinimalPublisher(Node):
 # Spin the node
 def main(args=None):
     rclpy.init(args=args)
-    publisher = MinimalPublisher()
+    publisher = MyNode()
     rclpy.spin(publisher)
     publisher.destroy_node()
     rclpy.shutdown()
