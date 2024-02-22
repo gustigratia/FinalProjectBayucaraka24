@@ -5,13 +5,14 @@
 
 using namespace std::chrono_literals;
 
+// Create Node
 class MyNode : public rclcpp::Node {
     public:
         MyNode() : Node("pubcontrol"){
-            // subscribing
+            // Subscribe vision topic
             subscription_ = this->create_subscription<griddata::msg::GameState>("vision",10, 
             std::bind(&MyNode::timer_callback, this, std::placeholders::_1));
-            // publishing
+            // Publish control topic
             publisher_ = this->create_publisher<griddata::msg::GameState>("control", 10);
             //periodic timer
             timer_ = this->create_wall_timer(10000ms, std::bind(&MyNode::publish_msg, this));
@@ -19,8 +20,11 @@ class MyNode : public rclcpp::Node {
         }
 
     private:
+        // Data members
         int cell[9];
         int turn;
+
+        // Method to check the game status
         bool GameOver(int board[]) {
             // Check for a win
             if ((board[0] != 0 && board[0] == board[1] && board[1] == board[2]) ||
@@ -41,6 +45,7 @@ class MyNode : public rclcpp::Node {
             return true; // Board is full, it's a tie
         }
 
+        // Evaluate the game 
         int evaluate(int arr[9]){
             const int win_pattern[8][3] = {
                 {0,1,2}, {3,4,5}, {6,7,8},
@@ -68,17 +73,20 @@ class MyNode : public rclcpp::Node {
             }
             return 0;
         }
-
+        
+        // Minimax algorithm for tic-tac-toe
         int minimax(int data[], int depth, bool isMaximize){
             if (GameOver(data) || depth == 5){
                 return evaluate(data);
             }
             else {
+                // maximizing player
                 if(isMaximize){
                     int maxEval = std::numeric_limits<int>::min();
                     for(int i = 0;i<9;++i){
                         if(data[i] == 0){
                             data[i] = 2;
+                            // Recursive
                             int eval = minimax(data, depth+1, false);
                             data[i] = 0;
                             maxEval = std::max(maxEval, eval);  
@@ -86,11 +94,13 @@ class MyNode : public rclcpp::Node {
                     }
                     return maxEval;
                 }
+                // Minimizing bot
                 else{
                     int minEval = std::numeric_limits<int>::max();
                     for(int i = 0;i<9;++i){
                         if(data[i] == 0){
                             data[i] = 1;
+                            // Recursive
                             int eval = minimax(data, depth+1, true);
                             data[i] = 0;
                             minEval = std::min(minEval, eval);
@@ -102,11 +112,14 @@ class MyNode : public rclcpp::Node {
                 
         }
 
+        // Subscription callback
         void timer_callback(const griddata::msg::GameState::SharedPtr msg){
-            // Tic Tac Toe Algorithm
+            // seubscribe message and store it into the data member
             for(int i =0 ;i<9;++i){
                 cell[i] = msg->cell[i];
             }
+
+            // Initiate Minimax Algorithm
             int bestmove = -1;
             int besteval = std::numeric_limits<int>::min();
             for(int i = 0;i<9;++i){
@@ -120,6 +133,7 @@ class MyNode : public rclcpp::Node {
                     }
                 }
             }
+            // if the game is not over yet, continue to proceed
             if(msg->over){
                 if(msg->gameturn % 2 == 0){
                     cell[bestmove] = 2;
@@ -127,6 +141,7 @@ class MyNode : public rclcpp::Node {
             }
         }
         
+        // Publishing
         void publish_msg(){
             auto msg = griddata::msg::GameState();
             for(int i = 0;i<9;i++){
@@ -144,6 +159,7 @@ class MyNode : public rclcpp::Node {
     
 };
 
+// Spin Node
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
