@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000685] (-) JobUnselected: {'identifier': 'griddata'}
+[0.000726] (-) JobUnselected: {'identifier': 'vision'}
+[0.000758] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict([('griddata', '/home/gusti/FinalProjectBayucaraka24/src/install/griddata')])}
+[0.000978] (control) JobStarted: {'identifier': 'control'}
+[0.100360] (-) TimerEvent: {}
+[0.168485] (control) JobProgress: {'identifier': 'control', 'progress': 'cmake'}
+[0.170094] (control) JobProgress: {'identifier': 'control', 'progress': 'build'}
+[0.171297] (control) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/gusti/FinalProjectBayucaraka24/src/build/control', '--', '-j8', '-l8'], 'cwd': '/home/gusti/FinalProjectBayucaraka24/src/build/control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gusti'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1645'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gusti'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1452'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2221'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gusti'), ('JOURNAL_STREAM', '8:47484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gusti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/gusti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gusti-ubuntu:@/tmp/.ICE-unix/1682,unix/gusti-ubuntu:/tmp/.ICE-unix/1682'), ('INVOCATION_ID', '45ac19b3253e4e559d1a75c864eae078'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install/vision:/home/gusti/FinalProjectBayucaraka24/src/install/griddata:/home/gusti/FinalProjectBayucaraka24/src/install/control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7d7716df-45ee-402d-8698-ac63b9f518c9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gusti/FinalProjectBayucaraka24/src/build/control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages:/home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install/griddata:/home/gusti/FinalProjectBayucaraka24/src/install/control:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy')]), 'shell': False}
+[0.200476] (-) TimerEvent: {}
+[0.239878] (control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.244845] (control) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.245014] (control) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.245085] (control) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.245147] (control) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.245205] (control) StderrLine: {'line': b'\n'}
+[0.245262] (control) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.245318] (control) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.245375] (control) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.245432] (control) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.245489] (control) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.245547] (control) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.245603] (control) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.245659] (control) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.245716] (control) StderrLine: {'line': b'\x1b[0m\n'}
+[0.265202] (control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300601] (-) TimerEvent: {}
+[0.400920] (-) TimerEvent: {}
+[0.497659] (control) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.501108] (-) TimerEvent: {}
+[0.558350] (control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.564442] (control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.601173] (-) TimerEvent: {}
+[0.701560] (-) TimerEvent: {}
+[0.725335] (control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.789413] (control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.791693] (control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801668] (-) TimerEvent: {}
+[0.901964] (-) TimerEvent: {}
+[0.947800] (control) StdoutLine: {'line': b'-- Found griddata: 0.0.0 (/home/gusti/FinalProjectBayucaraka24/src/install/griddata/share/griddata/cmake)\n'}
+[0.958347] (control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.002060] (-) TimerEvent: {}
+[1.028611] (control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.029433] (control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.029624] (control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.029711] (control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.030167] (control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.030254] (control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.030878] (control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.031730] (control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.031823] (control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.032136] (control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.034239] (control) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[1.051571] (control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.053071] (control) StdoutLine: {'line': b'-- Build files have been written to: /home/gusti/FinalProjectBayucaraka24/src/build/control\n'}
+[1.070356] (control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o\x1b[0m\n'}
+[1.102149] (-) TimerEvent: {}
+[1.202430] (-) TimerEvent: {}
+[1.302674] (-) TimerEvent: {}
+[1.402954] (-) TimerEvent: {}
+[1.503233] (-) TimerEvent: {}
+[1.603492] (-) TimerEvent: {}
+[1.703796] (-) TimerEvent: {}
+[1.804117] (-) TimerEvent: {}
+[1.904422] (-) TimerEvent: {}
+[2.004690] (-) TimerEvent: {}
+[2.104965] (-) TimerEvent: {}
+[2.205249] (-) TimerEvent: {}
+[2.305543] (-) TimerEvent: {}
+[2.405836] (-) TimerEvent: {}
+[2.506121] (-) TimerEvent: {}
+[2.606400] (-) TimerEvent: {}
+[2.706680] (-) TimerEvent: {}
+[2.806961] (-) TimerEvent: {}
+[2.907247] (-) TimerEvent: {}
+[3.007550] (-) TimerEvent: {}
+[3.107837] (-) TimerEvent: {}
+[3.208138] (-) TimerEvent: {}
+[3.308418] (-) TimerEvent: {}
+[3.408698] (-) TimerEvent: {}
+[3.508987] (-) TimerEvent: {}
+[3.609280] (-) TimerEvent: {}
+[3.709610] (-) TimerEvent: {}
+[3.809903] (-) TimerEvent: {}
+[3.910180] (-) TimerEvent: {}
+[4.010435] (-) TimerEvent: {}
+[4.110693] (-) TimerEvent: {}
+[4.210984] (-) TimerEvent: {}
+[4.311285] (-) TimerEvent: {}
+[4.411582] (-) TimerEvent: {}
+[4.511881] (-) TimerEvent: {}
+[4.612166] (-) TimerEvent: {}
+[4.712436] (-) TimerEvent: {}
+[4.812727] (-) TimerEvent: {}
+[4.913098] (-) TimerEvent: {}
+[5.013529] (-) TimerEvent: {}
+[5.114098] (-) TimerEvent: {}
+[5.214359] (-) TimerEvent: {}
+[5.314653] (-) TimerEvent: {}
+[5.415010] (-) TimerEvent: {}
+[5.515312] (-) TimerEvent: {}
+[5.615583] (-) TimerEvent: {}
+[5.715839] (-) TimerEvent: {}
+[5.816097] (-) TimerEvent: {}
+[5.916355] (-) TimerEvent: {}
+[6.016598] (-) TimerEvent: {}
+[6.101271] (control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable control\x1b[0m\n'}
+[6.116688] (-) TimerEvent: {}
+[6.216965] (-) TimerEvent: {}
+[6.317217] (-) TimerEvent: {}
+[6.366438] (control) StdoutLine: {'line': b'[100%] Built target control\n'}
+[6.369741] (control) CommandEnded: {'returncode': 0}
+[6.383233] (control) JobProgress: {'identifier': 'control', 'progress': 'install'}
+[6.387886] (control) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/gusti/FinalProjectBayucaraka24/src/build/control'], 'cwd': '/home/gusti/FinalProjectBayucaraka24/src/build/control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gusti'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1645'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gusti'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1452'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2221'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gusti'), ('JOURNAL_STREAM', '8:47484'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gusti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/gusti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gusti-ubuntu:@/tmp/.ICE-unix/1682,unix/gusti-ubuntu:/tmp/.ICE-unix/1682'), ('INVOCATION_ID', '45ac19b3253e4e559d1a75c864eae078'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install/vision:/home/gusti/FinalProjectBayucaraka24/src/install/griddata:/home/gusti/FinalProjectBayucaraka24/src/install/control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7d7716df-45ee-402d-8698-ac63b9f518c9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gusti/FinalProjectBayucaraka24/src/build/control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages:/home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gusti/FinalProjectBayucaraka24/src/install/griddata:/home/gusti/FinalProjectBayucaraka24/src/install/control:/home/gusti/FinalProjectBayucaraka24/src/install/vision:/opt/ros/foxy')]), 'shell': False}
+[6.390243] (control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.391173] (control) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/lib/control/control\n'}
+[6.393656] (control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/gusti/FinalProjectBayucaraka24/src/install/control/lib/control/control" to ""\n'}
+[6.393817] (control) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/ament_index/resource_index/package_run_dependencies/control\n'}
+[6.394018] (control) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/ament_index/resource_index/parent_prefix_path/control\n'}
+[6.394157] (control) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/ament_prefix_path.sh\n'}
+[6.394271] (control) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/ament_prefix_path.dsv\n'}
+[6.394390] (control) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/path.sh\n'}
+[6.394498] (control) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/environment/path.dsv\n'}
+[6.394595] (control) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.bash\n'}
+[6.394698] (control) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.sh\n'}
+[6.394816] (control) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.zsh\n'}
+[6.394908] (control) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/local_setup.dsv\n'}
+[6.394977] (control) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/package.dsv\n'}
+[6.395068] (control) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/ament_index/resource_index/packages/control\n'}
+[6.395178] (control) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/cmake/controlConfig.cmake\n'}
+[6.395272] (control) StdoutLine: {'line': b'-- Up-to-date: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/cmake/controlConfig-version.cmake\n'}
+[6.395337] (control) StdoutLine: {'line': b'-- Installing: /home/gusti/FinalProjectBayucaraka24/src/install/control/share/control/package.xml\n'}
+[6.396657] (control) CommandEnded: {'returncode': 0}
+[6.417322] (-) TimerEvent: {}
+[6.518222] (-) TimerEvent: {}
+[6.618812] (-) TimerEvent: {}
+[6.719096] (-) TimerEvent: {}
+[6.738830] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[6.739433] (-) EventReactorShutdown: {}

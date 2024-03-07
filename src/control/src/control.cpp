@@ -15,7 +15,7 @@ class MyNode : public rclcpp::Node {
             // Publish control topic
             publisher_ = this->create_publisher<griddata::msg::GameState>("control", 10);
             //periodic timer
-            timer_ = this->create_wall_timer(10000ms, std::bind(&MyNode::publish_msg, this));
+            timer_ = this->create_wall_timer(50000ms, std::bind(&MyNode::publish_msg, this));
             
         }
 

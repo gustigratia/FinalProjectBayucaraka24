@@ -1,0 +1,24 @@
+[0.884s] Invoking command in '/home/gusti/FinalProjectBayucaraka24/src/vision': PYTHONPATH=/home/gusti/FinalProjectBayucaraka24/src/build/vision/prefix_override:/home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages:/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages:/home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/vision build --build-base /home/gusti/FinalProjectBayucaraka24/src/build/vision/build install --record /home/gusti/FinalProjectBayucaraka24/src/build/vision/install.log --install-scripts $base/lib/vision --single-version-externally-managed
+[1.079s] running egg_info
+[1.080s] writing ../build/vision/vision.egg-info/PKG-INFO
+[1.080s] writing dependency_links to ../build/vision/vision.egg-info/dependency_links.txt
+[1.080s] writing entry points to ../build/vision/vision.egg-info/entry_points.txt
+[1.080s] writing requirements to ../build/vision/vision.egg-info/requires.txt
+[1.080s] writing top-level names to ../build/vision/vision.egg-info/top_level.txt
+[1.109s] reading manifest file '../build/vision/vision.egg-info/SOURCES.txt'
+[1.109s] writing manifest file '../build/vision/vision.egg-info/SOURCES.txt'
+[1.110s] running build
+[1.110s] running build_py
+[1.110s] copying vision/visioncam.py -> /home/gusti/FinalProjectBayucaraka24/src/build/vision/build/lib/vision
+[1.110s] running install
+[1.111s] running install_lib
+[1.111s] copying /home/gusti/FinalProjectBayucaraka24/src/build/vision/build/lib/vision/visioncam.py -> /home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages/vision
+[1.112s] byte-compiling /home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages/vision/visioncam.py to visioncam.cpython-38.pyc
+[1.115s] running install_data
+[1.115s] running install_egg_info
+[1.117s] removing '/home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages/vision-0.0.0-py3.8.egg-info' (and everything under it)
+[1.117s] Copying ../build/vision/vision.egg-info to /home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages/vision-0.0.0-py3.8.egg-info
+[1.117s] running install_scripts
+[1.132s] Installing vision script to /home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/vision
+[1.132s] writing list of installed files to '/home/gusti/FinalProjectBayucaraka24/src/build/vision/install.log'
+[1.151s] Invoked command in '/home/gusti/FinalProjectBayucaraka24/src/vision' returned '0': PYTHONPATH=/home/gusti/FinalProjectBayucaraka24/src/build/vision/prefix_override:/home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages:/home/gusti/FinalProjectBayucaraka24/src/install/griddata/lib/python3.8/site-packages:/home/gusti/FinalProjectBayucaraka24/src/install/vision/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/vision build --build-base /home/gusti/FinalProjectBayucaraka24/src/build/vision/build install --record /home/gusti/FinalProjectBayucaraka24/src/build/vision/install.log --install-scripts $base/lib/vision --single-version-externally-managed
