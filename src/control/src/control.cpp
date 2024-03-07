@@ -94,7 +94,7 @@ class MyNode : public rclcpp::Node {
                     }
                     return maxEval;
                 }
-                // Minimizing bot
+                // Minimizing player
                 else{
                     int minEval = std::numeric_limits<int>::max();
                     for(int i = 0;i<9;++i){
